@@ -18,7 +18,7 @@ Setting up basic fullstack app instructions
 
 5. Create port
 
-//-- Test Mongo and Port Connection
+//-- Test MongoDB and Port Connection
 
 6. Set middleware
 

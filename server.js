@@ -17,7 +17,14 @@ MongoClient.connect(dbConnectionString)
         // Need to update text inside collection for individual projects
         collection = db.collection('characters-and-players')
     })
+// Middleware comes before CRUD operations
+app.set('view engine', 'ejs')
+app.use(express.static('public'))
+app.use(express.urlencoded({extended:true}))
+app.use(express.json())
+app.use(cors())
 
+// CRUD Operations
 app.listen(process.env.PORT || PORT, () => {
     console.log(`Server is running`)
 })
