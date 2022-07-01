@@ -17,3 +17,7 @@ MongoClient.connect(dbConnectionString)
         // Need to update text inside collection for individual projects
         collection = db.collection('characters-and-players')
     })
+
+app.listen(process.env.PORT || PORT, () => {
+    console.log(`Server is running`)
+})

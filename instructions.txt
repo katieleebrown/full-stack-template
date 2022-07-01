@@ -1,0 +1,31 @@
+Setting up basic fullstack app instructions
+
+1. Initialize npm and install dependencies
+// express, dotenv, cors, mongodb, ejs, nodemon
+	// dotenv - hides info from public code (like passwords)
+	// cors - bypass cross origin request blocks
+	// mongodb - the database
+	// ejs - dynamically generate html from server info
+	// nodemon - restarts node server automatically (need --save-dev)
+
+2. Require dependencies in server.js
+
+3. Declare variables
+
+4. Connect to mongodb 
+// add connection string to .env file
+// add .env file to gitignore
+
+5. Create port
+
+//-- Test Mongo and Port Connection
+
+6. Set middleware
+
+7. Create public and views folders 
+// add main.js and style.css to public
+// add index.ejs to views
+
+8. From root, init local git repo
+
+9. 
