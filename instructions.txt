@@ -26,7 +26,7 @@ Setting up basic fullstack app instructions
 // add main.js and style.css to public
 // add index.ejs to views
 
-8. From root, init local git repo and commit
+8. Push content to github
 
 9. Create heroku repo
 // heroku login
