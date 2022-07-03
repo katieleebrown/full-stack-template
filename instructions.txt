@@ -26,10 +26,16 @@ Setting up basic fullstack app instructions
 // add main.js and style.css to public
 // add index.ejs to views
 
-8. Push content to github
+8. Add content to main.js, style.css, index.ejs
 
-9. Create heroku repo
+9. Create heroku repo 
+// git init
+// take .env file out of gitignore before deploying to heroku OR input manually in heroku
 // heroku login
-// heroku create 
+// heroku create <name-here>
 // echo "web: node server.js" > Procfile
 // git add .
+// git commit -m 'changes'
+// git push heroku main
+
+//-- Test Heroku Link
